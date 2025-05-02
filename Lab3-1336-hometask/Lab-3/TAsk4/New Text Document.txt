@@ -1,0 +1,6 @@
+Why Do We Use Interrupts
+• Why do we use interrupt?
+ANS: We use interrupts to detect Button press
+• How does interrupt lower the processing cost of the micro-controller?
+ANS:The CPU doesn’t waste time checking the button status.
+It triggers only when needed, saving processing power.

@@ -1,0 +1,10 @@
+For Task 2 I have done These changes in code:
+✅ Removes interrupts and instead checks the button state in the loop.
+✅ Implements polling (inefficient, CPU keeps checking the button).
+✅ Maintains temperature and humidity readings from DHT22 (or DHT11).
+
+Run the same functionality of the lab work without interrupt & log your 
+observations. Also state, what happened before and after interrupt?
+ANS:It continusely Checks the button state
+Delays may miss button press
+Less efficent

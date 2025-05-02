@@ -1,0 +1,3 @@
+• Blow on the sensor and observe whether it detects minor changes in temperature 
+and humidity
+ANS:Yes Humidity readings Changes

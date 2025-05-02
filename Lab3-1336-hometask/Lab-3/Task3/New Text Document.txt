@@ -1,0 +1,15 @@
+: Understanding Debounce Issue
+• What is a debounce issue and why we get rid of it?
+ANS:Debounce issue happens when a button presses multiple times due to mechanical bouncing or error.
+We can get rid of it we do these changes in code:
+1.Import Library utime.
+2.Declare a variable(lastpress) in which we will save value of time inital(0).
+3.Then in loop if button value=0,adn if if utime.ticks_ms() - last_press > 300 then print "button pressed"
+and in lastpress save value of utime
+• In which applications/domains, debounce issue can be threatening if not resolved in 
+the system?
+ANS:It is critical in games controller, keyboards and industrial switches.
+• Why debounce occurs? Is it a compiler error, logical error or micro-controller is 
+cheap?
+ANS:Debounce occurs due to the mechanical nature of physical buttons and switches.
+It is not a compiler error or logical error, and it has nothing to do with the microcontroller being cheap.
